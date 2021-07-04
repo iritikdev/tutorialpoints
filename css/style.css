@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.categories-section .container {
+    background-color: #cccccc;
+}
+
+.card {
+    background-color: #cccccc;
+    border: none;
+
+}
+
+.card:hover {
+    background-color: #d82a4e;
+    color: #f2f2f2;
+}
+
+/* Search Section: start */
+.search-warp {
+    background-color: brown;
+
+}
+
+.course-search-form input {
+    outline: none;
+    background-color: #f2f2f2;
+    border: none;
+    width: 250px;
+    padding: 8px;
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;
+    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    /* Opera/IE 8+ */
+    margin: 4px;
+
+}
+
+.bg-site {
+    background-color: #d82a4e;
+}
+
+input::placeholder {
+    font-size: 12px;
+    font-style: italic;
+}
+
+input:focus {
+    border-bottom: 2px solid #d82a4e;
+
+}
+
+.site-btn {
+    border: none;
+    color: white;
+    font-size: smaller;
+    background-color: #d82a4e;
+    padding: 10px 40px;
+}
+
+/* Search Section: end */
+
+#hero-header {
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255 255 255 / 100%);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(255 255 255 / 100%);
+    font-weight: 700;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #ffffff;
+}
+
+.navbar-light .navbar-brand {
+    color: #ffffff;
+    font-weight: 800;
+
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #ffffff;
+    font-weight: 800;
+
+}
+
+.breadcamp {
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+
+.form-body {
+    margin-bottom: -50px;
+}
+
+.footerbody {
+    margin-top: 5rem;
+}
+
+.registration {
+    background-color: #d82a4e;
+    color: #f2f2f2;
+}
+
+.contact-body {
+    margin-top: 100px;
+}
+
+.tag-text {
+    color: #d82a4e;
+    border-bottom: 2px solid #d82a4e
+}
+
+.contact-info ul {
+    list-style: none;
+    /* Remove default bullets */
+}
+
+.contact-info ul li {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.contact-info ul li::before {
+    content: "\2022";
+    /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #d82a4e;
+    /* Change the color */
+    font-weight: bold;
+    /* If you want it to be bold */
+    display: inline-block;
+    /* Needed to add space between the bullet and the text */
+    width: 1em;
+    /* Also needed for space (tweak if needed) */
+    margin-left: -1em;
+    /* Also needed for space (tweak if needed) */
+}
+
+.social-links a {
+    color: black;
+    font-size: 10px;
+    margin: 0px 4px 0px 4px;
+}
+
+.social-links {
+    margin-left: 20px;
+}
+
+.tag {
+    background-color: #d82a4e;
+    display: inline;
+    font-weight: 700;
+}
